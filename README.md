@@ -13,3 +13,9 @@
 ``` bash
 composer create-project --prefer-dist laravel/lumen lumen-api
 ```
+
+
+## Changes
+
+* Uncomment Facades and Eloquent in Line 26 - 28 at ./bootsrap/app.php
+* Uncomment middleware and routeMiddleware in Line 75 - 81 at ./bootsrap/app.php
