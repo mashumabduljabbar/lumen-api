@@ -53,6 +53,10 @@ You can execute this command in the terminal or command prompt, and then access 
 code ./routes/web.php
 ```
 
+## Controller
+
+In Lumen, the make:controller command is not included by default due to the framework's focus on providing a lightweight and streamlined experience. However, you can still manually create a controller file.
+
 ``` bash
 code ./app/Http/Controllers/ExampleController.php
 ```
@@ -69,4 +73,13 @@ code ./database/migrations/2024_02_11_100817_mahasiswa.php
 
 ``` bash
 php artisan migrate
+```
+
+
+## Model
+
+In Laravel, the make:model command is used to generate an Eloquent model class and an associated database migration file. However, in Lumen, you may need to create these files manually due to the framework's focus on simplicity and minimalism.
+
+``` bash
+code ./app/Models/Mahasiswa.php
 ```
