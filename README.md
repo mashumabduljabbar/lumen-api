@@ -46,3 +46,9 @@ php -S localhost:8000 -t public
 3. -t public: This option specifies the root directory of the application. In this example, the root directory is set to public. This means the server will execute the application from the public directory, which is generally a good security practice to only expose public files directly to users.
 
 You can execute this command in the terminal or command prompt, and then access your Laravel Lumen application through http://localhost:8000 in a web browser.
+
+## Route 
+
+``` bash
+code ./routes/web.php
+```
