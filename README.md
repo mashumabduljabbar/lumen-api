@@ -56,3 +56,17 @@ code ./routes/web.php
 ``` bash
 code ./app/Http/Controllers/ExampleController.php
 ```
+
+## Migration
+
+``` bash
+php artisan make:migration Mahasiswa
+```
+
+``` bash
+code ./database/migrations/2024_02_11_100817_mahasiswa.php
+```
+
+``` bash
+php artisan migrate
+```
