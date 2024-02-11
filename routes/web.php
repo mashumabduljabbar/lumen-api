@@ -16,3 +16,5 @@
 $router->get('/', function () use ($router) {
     return "Hello World";
 });
+
+$router->get('/example', 'ExampleController@index');

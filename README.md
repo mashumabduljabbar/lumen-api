@@ -52,3 +52,7 @@ You can execute this command in the terminal or command prompt, and then access 
 ``` bash
 code ./routes/web.php
 ```
+
+``` bash
+code ./app/Http/Controllers/ExampleController.php
+```
